@@ -21,25 +21,27 @@ import { FacebookUrl, GithubUrl, LinkedInUrl } from "../../constants/constants";
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <DiCssdeck size="3rem" /> <span>Portfolio</span>
-        </a>
+      <Link
+        href="/"
+        style={{ display: "flex", alignItems: "center", color: "white" }}>
+
+        <DiCssdeck size="3rem" /> <span>Portfolio</span>
+
       </Link>
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link href="#projects" legacyBehavior>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <Link href="#tech" legacyBehavior>
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about">
+        <Link href="#about" legacyBehavior>
           <NavLink>About</NavLink>
         </Link>
       </li>

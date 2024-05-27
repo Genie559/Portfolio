@@ -14,7 +14,7 @@ export const projects = [
       "NodeSynapse is a marketplace based on blockchain technology that allows users to buy or rent computing resources in an effort to meet the growing demand for decentralized and scalable infrastructure services.",
     image: "/images/NodeSynapse.png",
 
-    source: "https://nodesynapse.app/",
+    source: "https://nodesynapse.com/index.html",
     id: 3,
   },
   {
