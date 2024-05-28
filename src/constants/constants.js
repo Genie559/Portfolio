@@ -20,7 +20,7 @@ export const projects = [
   {
     title: "Hendotech",
     description:
-      "Hendotech Swap on BSc network. HendotechSwap is a leading DEX on the BNB Smart Chain (BSC) with a leading DeFi farm and CAKE lottery.",
+      "Hendotech Swap on BSC network. HendotechSwap is a leading DEX on the BNB Smart Chain (BSC) with a leading DeFi farm and CAKE lottery.",
     image: "/images/Hendotech.jpeg",
 
     source: "https://www.swaphendotech.com/",
