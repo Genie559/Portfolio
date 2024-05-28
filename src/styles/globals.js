@@ -384,8 +384,8 @@ const GlobalStyles = createGlobalStyle`
     position: absolute;
     left: 45%;
     top: 68%;
-    -webkit-animation: bounce 3s linear infinite;
-    animation: bounce 3s linear infinite;
+    -webkit-animation: bounce 3.5s linear infinite;
+    animation: bounce 3.5s linear infinite;
   }
 
   .hero-area .hero-image .h2-move-3 {
@@ -393,8 +393,8 @@ const GlobalStyles = createGlobalStyle`
     left: 47%;
     top: 26%;
     z-index: -1;
-    -webkit-animation: bounce 4s linear infinite;
-    animation: bounce 4s linear infinite;
+    -webkit-animation: bounce 2.5s linear infinite;
+    animation: bounce 2.5s linear infinite;
   }
 
   .hero-area .hero-image .dot-dot {

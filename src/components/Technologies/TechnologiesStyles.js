@@ -100,8 +100,15 @@ export const ListParagraph = styled.p`
     line-height: 22px;
   }
 `;
-export const TechIco = styled.label`
+export const FlexDiv = styled.div`
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+`;
+export const TechIco = styled.div`
+  max-width: 70px;
   padding: 10px;
+  margin-bottom: 10px;
 `;
 export const ListItem = styled.li`
   max-width: 320px;

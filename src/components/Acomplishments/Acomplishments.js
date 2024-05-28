@@ -36,6 +36,7 @@ const Acomplishments = () => {
 
   return (
     <Section>
+      <SectionDivider divider />
       <SectionTitle>Personal Achievements</SectionTitle>
       <Boxes>
         {data.map((card, index) => (
@@ -45,7 +46,6 @@ const Acomplishments = () => {
           </Box>
         ))}
       </Boxes>
-      <SectionDivider />
     </Section>
   );
 };

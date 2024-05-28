@@ -36,23 +36,19 @@ import {
   ListParagraph,
   TechIco,
   ListTitle,
+  FlexDiv,
 } from "./TechnologiesStyles";
 const Technologies = () => (
   <Section id="tech">
-    <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionDivider />
+    <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
       Have used a variety of technologies from the world of blockchain and AI
       software development, including various bot development, smart contracts,
       and deep learning.
     </SectionText>
 
-    {/* <div className="tech-stack-box">
-      <div className="tech-stack-single-box" id="HTML">
-        <img src="/images/wallet.png" className="tech-ico1" alt="html icon" />
-      </div>
-    </div> */}
-    <picture>
+    <FlexDiv>
       <TechIco>
         <FaPython size="5rem" />
       </TechIco>
@@ -110,44 +106,10 @@ const Technologies = () => (
       <TechIco>
         <GiSpiderWeb size="5rem" />
       </TechIco>
-    </picture>
-
-    {/* <ListItem>
-        <picture>
-          <DiFirebase size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>
-            Experience with Node.js
-            <br />
-            Express.js, GraphQL, Nest.js
-            <br />
-            TypeScript, Microservices
-            <br />
-            Docker, PubSub, RabbitMQ
-            <br />
-            Prisma, Sequelize, MongoDB
-            <br />
-            MYSQL & Postgres
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like Figma
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-    </List> */}
+    </FlexDiv>
     <br />
-    <SectionDivider colorAlt />
+    <br />
+    {/* <SectionDivider colorAlt /> */}
   </Section>
 );
 

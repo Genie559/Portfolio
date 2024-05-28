@@ -65,7 +65,8 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+      <SectionDivider />
+      <SectionTitle main>About Me</SectionTitle>
       <SectionText>
         AI software developer specializing in Telegram/Discord trading bot
         development with over 4 years of experience. Expert Developing
@@ -73,6 +74,7 @@ const Timeline = () => {
         writing clean code, providing exceptional user experiences, and staying
         updated with industry trends for innovative solutions.
       </SectionText>
+
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -127,22 +129,6 @@ const Timeline = () => {
           ))}
         </>
       </CarouselContainer>
-      <CarouselButtons>
-        {TimeLineData.map((item, index) => {
-          return (
-            <CarouselButton
-              key={index}
-              index={index}
-              active={activeItem}
-              onClick={(e) => handleClick(e, index)}
-              type="button"
-            >
-              <CarouselButtonDot active={activeItem} />
-            </CarouselButton>
-          );
-        })}
-      </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

@@ -23,8 +23,6 @@ const Hero = (props) => (
       <LeftSection>
         <SectionTitle main center>
           Chiriac Ivan
-          {/* <br /> */}
-          {/* Expert Bot Developer */}
         </SectionTitle>
         <SectionText>
           Full Stack Blockchain Engineer with expert AI and Web3 Technologies.
