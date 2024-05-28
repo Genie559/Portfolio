@@ -49,7 +49,8 @@ export const TimeLineData = [
 
 export const FiverUrl = "https://www.fiverr.com/";
 export const UpworkUrl = "https://www.upwork.com/";
-export const ResumeUrl = "https://www.cakeresume.com/tanveer-khan-21f68d";
+export const ResumeUrl =
+  "https://www.cakeresume.com/s--VP5V8tqxCBWryhcUW6jygw--/ivan-chiriac";
 export const GithubUrl = "https://github.com/Genie559";
 export const LinkedInUrl = "https://www.linkedin.com/in/";
 export const FacebookUrl = "https://www.facebook.com/";
