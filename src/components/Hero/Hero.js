@@ -39,9 +39,9 @@ const Hero = (props) => (
           <Button alt="fiverr" onClick={handleClickGithub}>
             GitHub
           </Button>
-          {/* <Button alt="resume" onClick={handleClickResume}>
+          <Button alt="resume" onClick={handleClickResume}>
             Resume
-          </Button> */}
+          </Button>
         </div>
       </LeftSection>
     </Section>
