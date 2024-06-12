@@ -10,7 +10,7 @@ import { LeftSection } from "./HeroStyles";
 import { GithubUrl, ResumeUrl } from "../../constants/constants";
 
 const handleClickResume = () => {
-//  window.open(ResumeUrl, "_blank");
+  window.open(ResumeUrl, "_blank");
 };
 
 const handleClickGithub = () => {
@@ -22,7 +22,7 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Daniel Chen
+          Chiriac Ivan
         </SectionTitle>
         <SectionText>
           Full Stack Blockchain Engineer with expert AI and Web3 Technologies.
